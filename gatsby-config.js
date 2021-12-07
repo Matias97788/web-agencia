@@ -7,7 +7,7 @@ module.exports = {
         {
             resolve: `gatsby-source-strapi`,
             options: {
-              apiURL: `https://los-navegantes.herokuapp.com`,
+              apiURL: `https://agenciarefresh2.herokuapp.com`,
               queryLimit: 1000, // Defaults to 100
               collectionTypes: [`post`,`instagram-contenidos`], 
               singleTypes: [`home`,`mkt`,`tripulacion`,`analitica`],
